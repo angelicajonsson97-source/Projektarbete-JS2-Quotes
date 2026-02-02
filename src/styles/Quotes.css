@@ -1,0 +1,56 @@
+.quotes-page {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.quote-box {
+  background-color: #FFFFFF;
+  border: 2px solid #FFD7C2;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  box-shadow: 0 4px 10px rgba(255, 135, 100, 0.15);
+}
+
+.quote {
+  font-size: 1.4rem;
+  color: #3A3A3A;
+}
+
+.author {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #FF8A65;
+}
+
+/* Buttons */
+.new-quote-btn,
+.save-btn {
+  background-color: #FF8A65;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.new-quote-btn:hover,
+.save-btn:hover {
+  background-color: #FF9F80;
+}
+
+.new-quote-btn:active,
+.save-btn:active {
+  transform: scale(0.97);
+}
+
+/* Saved message */
+.saved-message {
+  margin-top: 1rem;
+  color: #FF8A65;
+  font-weight: bold;
+}

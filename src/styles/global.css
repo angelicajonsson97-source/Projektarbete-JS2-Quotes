@@ -1,0 +1,33 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font & background */
+body {
+  background-color: #FFF8F0;
+  color: #3A3A3A;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* centered layout */
+.container {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+    padding: 1.5rem;
+}
+body {
+    font-size: 18px;    
+}
+}

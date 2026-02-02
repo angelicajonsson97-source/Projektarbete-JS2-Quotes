@@ -1,0 +1,50 @@
+.favorites-page {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.favorites-list {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.favorite-item {
+  background-color: #FFFFFF;
+  border: 2px solid #FFD7C2;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(255, 135, 100, 0.15);
+}
+
+.favorite-item .quote {
+  color: #3A3A3A;
+}
+
+.favorite-item .author {
+  color: #FF8A65;
+  font-style: italic;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #FF8A65;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.8rem;
+  font-weight: 600;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.delete-btn:hover {
+  background-color: #FF9F80;
+}
+
+.delete-btn:active {
+  transform: scale(0.97);
+}

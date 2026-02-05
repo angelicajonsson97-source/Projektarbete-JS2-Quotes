@@ -27,12 +27,12 @@ https://angelicajonsson97-source.github.io/Projektarbete-JS2-Quotes/
 - Komponentbaserad struktur
 - Deploy via GitHub Pages
 - Tydlig mappstruktur (pages/, components/, styles/)
-- README med teknisk reflektion (VG‑krav)
+- README med teknisk reflektion 
 
 ---
 
 ## 🧠 Tekniska val – reflektion
-Jag valde en tydlig mappstruktur med *pages*, *components* och *styles* för att hålla projektet organiserat och lätt att bygga vidare på. Sidorna ligger i *pages* eftersom de representerar olika vyer i applikationen, medan återanvändbara delar som navbar och favoritknappar ligger i *components*. Det gör koden mer modulär och lättare att underhålla.
+Jag valde en tydlig mappstruktur med *pages*, *components* och *styles* för att hålla projektet organiserat och lätt att bygga vidare på. Sidorna ligger i *pages* eftersom de representerar olika vyer i applikationen, medan återanvändbara delar som navbar ligger i *components*. Det gör koden mer modulär och lättare att underhålla.
 
 Routing‑upplägget med React Router gör att appen fungerar som en SPA utan sidladdningar. Jag använder `BrowserRouter` med `basename` eftersom projektet ligger i en undermapp på GitHub Pages, vilket kräver att alla länkar anpassas. Detta gav mig en bättre förståelse för hur paths fungerar i olika miljöer.
 

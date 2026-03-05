@@ -14,7 +14,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Quotes" element={<Quotes />} />
-      <Route path="/favorites" element={<Favorites />} />
+      <Route path="/Favorites" element={<Favorites />} />
     </Routes>
     </>
   );
